@@ -12,6 +12,9 @@ public class MainApp {
 
         Calculator calc1 = new Calculator(); //Creates a calculator object
 
+        //A class is a set of instructions for code
+        //An object is created with the instructions, and is made up of stored data and methods
+
         System.out.println("Simple Calculator - Add Two Numbers");
         System.out.print("Enter first number: ");
         int a = scan.nextInt();
@@ -35,10 +38,9 @@ public class MainApp {
         result = calc1.div(a,b); // / method *
         System.out.println("Result of division operation: " + result);
 
+        result = calc1.power(a,b); // ** method *
+        System.out.println("Result of power operation: " + result);
+
         scan.close();
     }
-
-
-
-
 }
