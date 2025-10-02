@@ -1,6 +1,6 @@
 package ie.atu;
 
-public class Calculator {
+public class Calculator { //Creating the class Calculator
     public int add(int firNum, int secNum) { //Method to add two numbers *
         return firNum + secNum;
     }
@@ -15,6 +15,16 @@ public class Calculator {
 
     public int div(int firNum, int secNum) { //Method to divide two numbers
         return firNum / secNum;
+    }
+
+    public int power(int firNum, int secNum) {
+        int tempResult = firNum;
+
+        for(int i = secNum; i < 0; i--){
+            tempResult = tempResult * firNum;
+        }
+
+        return tempResult;
     }
 
 }
