@@ -9,5 +9,7 @@ public class Calculator {
       return firNum - secNum;
     }
 
-
+    public int mul(int firNum, int secNum) { //Function to multiply two numbers *
+        return firNum * secNum;
+    }
 }

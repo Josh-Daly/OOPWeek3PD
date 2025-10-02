@@ -24,6 +24,9 @@ public class MainApp {
         result = calc1.sub(a,b); //Reuses result object to store result from sub method *
         System.out.println("Result of - operation: " + result);
 
+        result = calc1.mul(a,b); //Reuses result object to store result from sub method *
+        System.out.println("Result of x operation: " + result);
+
         scan.close();
     }
 
