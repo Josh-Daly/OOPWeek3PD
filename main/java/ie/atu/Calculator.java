@@ -20,7 +20,7 @@ public class Calculator { //Creating the class Calculator
     public int power(int firNum, int secNum) {
         int tempResult = firNum;
 
-        for(int i = secNum; i < 0; i--){
+        for(int i = secNum; i > 1; i--){
             tempResult = tempResult * firNum;
         }
 
