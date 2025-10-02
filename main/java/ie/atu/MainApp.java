@@ -18,8 +18,11 @@ public class MainApp {
         System.out.print("Enter second number: ");
         int b = scan.nextInt();
 
-        int result = calc1.add(a,b);
-        System.out.println("Result of operation: " + result);
+        int result = calc1.add(a,b); //Creates a result object which stores result from add method *
+        System.out.println("Result of + operation: " + result);
+
+        result = calc1.sub(a,b); //Reuses result object to store result from sub method *
+        System.out.println("Result of - operation: " + result);
 
         scan.close();
     }
