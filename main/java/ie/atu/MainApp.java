@@ -41,6 +41,9 @@ public class MainApp {
         result = calc1.power(a,b); // ** method *
         System.out.println("Result of power operation: " + result);
 
+        result = calc1.modulo(a,b); // ** method *
+        System.out.println("Result of modulus operation: " + result);
+
         scan.close();
     }
 }
