@@ -17,7 +17,7 @@ public class Calculator { //Creating the class Calculator
         return firNum / secNum;
     }
 
-    public int power(int firNum, int secNum) {
+    public int power(int firNum, int secNum) { //Method to raise firstNum by power of secondNum *
         int tempResult = firNum;
 
         for(int i = secNum; i > 1; i--){
@@ -25,6 +25,10 @@ public class Calculator { //Creating the class Calculator
         }
 
         return tempResult;
+    }
+
+    public int modulo(int firNum, int secNum) { //Method to retrieve the modulus of two numbers
+        return firNum % secNum;
     }
 
 }
